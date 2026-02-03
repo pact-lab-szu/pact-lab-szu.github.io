@@ -1,23 +1,63 @@
 ---
 layout: page
-permalink: /join_us/
 title: join us
-description: Wlecom to you if you have ambitious to do something interesting with our team!
+permalink: /join_us/
+description: Join our research team and contribute to cutting-edge projects.
 nav: true
-nav_order: 2
+nav_order: 4
+display_categories: [postdoc, phd, master, undergraduate]
+horizontal: false
 ---
 
-### 博士后研究员（示例）
-- 要求：计算机科学或相关专业博士学位
-- 研究方向：人工智能、机器学习
-- 待遇：面议
-
-### 研究生（示例）
-- 要求：本科学历，成绩优秀
-- 专业：计算机、电子工程等相关专业
-- 研究兴趣：深度学习、无线通信
-
-## Contact details
-- email：3999144685@qq.com
-- address：Zhixin Building, Shenzhen University, Shenzhen, China
-
+<!-- pages/join_us.md -->
+<div class="join-us">
+  {% if site.enable_join_categories and page.display_categories %}
+    <!-- Display categorized positions -->
+    {% for category in page.display_categories %}
+      <a id="{{ category }}" href=".#{{ category }}">
+        <h2 class="category">{{ category }}</h2>
+      </a>
+      
+      {% assign categorized_positions = site.positions | where: "category", category %}
+      {% assign sorted_positions = categorized_positions | sort: "importance" %}
+      
+      <!-- Generate cards for each position -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+            {% for position in sorted_positions %}
+              {% include positions_horizontal.liquid %}
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="row row-cols-1 row-cols-md-3">
+          {% for position in sorted_positions %}
+            {% include positions.liquid %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    
+  {% else %}
+    <!-- Display positions without categories -->
+    {% assign sorted_positions = site.positions | sort: "importance" %}
+    
+    <!-- Generate cards for each position -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+          {% for position in sorted_positions %}
+            {% include positions_horizontal.liquid %}
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="row row-cols-1 row-cols-md-3">
+        {% for position in sorted_positions %}
+          {% include positions.liquid %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+</div>
