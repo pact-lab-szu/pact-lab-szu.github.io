@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-join-us",
           title: "join us",
-          description: "Join us by categories in reversed chronological order. powered by jekyll-scholar.",
+          description: "Wlecom to you if you have ambitious to do something interesting with our team!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/join_us/";
