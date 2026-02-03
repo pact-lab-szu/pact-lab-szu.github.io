@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /join_us/
-title: Join Us
+title: join us
 description: Join us by categories in reversed chronological order. powered by jekyll-scholar.
 nav: true
 nav_order: 2
 ---
 
-# Join Us
+# Ioin Us
 
 欢迎加入我们的团队！
 
@@ -24,5 +24,5 @@ nav_order: 2
 - 研究兴趣：深度学习、无线通信
 
 ## 联系方式
-- 邮箱：contact@example.com
+- 邮箱：3999144685@qq.com
 - 地址：深圳大学
