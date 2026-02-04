@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-join-us",
           title: "join us",
-          description: "members of the lab or group",
+          description: "Join our research team and contribute to cutting-edge projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/join%20us/";
