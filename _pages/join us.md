@@ -3,7 +3,7 @@ layout: about
 permalink: /join us/
 title: join us
 description: Join our research team and contribute to cutting-edge projects.
-nav: false
+nav: true
 nav_order: 7
 ---
 ### Join Us
