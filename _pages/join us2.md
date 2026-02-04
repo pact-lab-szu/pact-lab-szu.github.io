@@ -1,23 +1,43 @@
 ---
-layout: page
-profiles:
-  - align: left
-# 新增：网页头部标题+描述（可选，会在纯文本上方显示）
-title: 我的纯文本文档  # 网页的H1主标题，显示在页面顶部
-description: 这是一个基于page模板的纯文本展示页面  # 标题下方的描述文字（可选）
-# 新增：页面级自定义样式，微调纯文本排版（可选，仅对当前页面生效）
-_styles: |
-  .post { max-width: 800px; margin: 0 auto; padding: 20px; }  # 内容居中+固定宽度+内边距
-  .clearfix p { line-height: 1.8; font-size: 16px; color: #333; }  # 纯文本行高+字体+颜色
-  .clearfix h2 { margin: 20px 0 10px; color: #2c3e50; }  # 副标题样式
+# 核心基础配置（保留al-folio主题格式，适配全局样式）
+layout: about        # 沿用主题about布局，保证页面样式统一
+title: 纯文本文档    # 页面标题（可自定义，如“实验室说明”“项目介绍”）
+permalink: /plaintext/ # 页面访问路径：网站根域名/plaintext/ （可自定义，如/说明文档/）
+subtitle: 极简纯文本展示 · 无图片/冗余元素 · 支持Markdown语法  # 副标题（可自定义或删除）
+
+# 以下所有冗余功能全部关闭（核心：剔除非纯文本元素）
+profile: false       # 关闭个人资料卡片（无图片/地址，纯文本核心）
+selected_papers: false # 关闭精选论文列表
+social: false        # 关闭底部社交图标栏
+
+# 公告板块：关闭（纯文本无需）
+announcements:
+  enabled: false     # 核心关闭，其余配置无需修改
+  scrollable: true
+  limit: 5
+
+# 最新文章板块：关闭（纯文本无需）
+latest_posts:
+  enabled: false     # 核心关闭，其余配置无需修改
+  scrollable: true
+  limit: 3
 ---
 
-## 纯文本展示示例
-这是优化后的纯文本内容，排版更舒适，内容居中显示，
-行高、字体大小都做了微调，适合大段纯文本阅读。
+# 这里写你的一级标题
+## 二级副标题（支持Markdown所有基础语法）
+### 三级小标题
 
-### 纯文本段落
-大段纯文本直接分段写即可，Markdown的空行会自动转为HTML的<p>标签，
-模板会自动渲染，无需额外处理。
+这是纯文本展示区域，可直接编写任意文本内容，支持Markdown原生语法：
+- 无序列表展示
+- 多条目分类说明
+1. 有序列表
+2. 步骤化内容梳理
+**粗体强调文本**、*斜体注释文本*、[超链接示例](https://www.szu.edu.cn)（替换为你的实际链接）。
 
-**注意**：所有样式仅对当前纯文本页面生效，不会影响站点其他页面。
+### 段落分隔
+直接空行即可实现段落分隔，大段文本可随意分段，主题会自动渲染为整洁的排版，适配电脑、手机等所有设备。
+
+### 代码片段（如需展示代码）
+```python
+# 支持代码块语法，自动高亮
+print("Hello SZU!")
