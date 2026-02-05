@@ -20,7 +20,7 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     ---
 
----
+    ---
     layout: page
     title: test
     description: a project with a background image
