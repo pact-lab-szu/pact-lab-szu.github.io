@@ -6,7 +6,7 @@ subtitle: Personal Linked Agent Network Lab (PLAN Lab)
 
 profile:
   align: right
-  image: plan-logo.png
+  image: Shenzhen University.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PLAN Lab (Personal Linked Agent Network Lab)</p>
