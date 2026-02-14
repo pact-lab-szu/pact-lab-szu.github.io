@@ -15,6 +15,22 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h2>Shengli Zhang</h2>
+{% bibliography -f shengli %}
+
+<h2>Taotao Wang</h2>
+{% bibliography -f taotao %}
+
+<h2>Xiaoxiao Wu</h2>
+{% bibliography -f xiaoxiao %}
+
+<h2>Qing Yang</h2>
+{% bibliography -f qing %}
+
+<h2>Fang Liu</h2>
+{% bibliography -f fang %}
+
+<h2>Jingwen Tong</h2>
+{% bibliography -f jingwen %}
 
 </div>
