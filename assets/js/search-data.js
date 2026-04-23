@@ -411,7 +411,12 @@ ninja.data = [{
           section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-simple-inline-announcement",
+          section: "News",},{id: "news-普蓝-首期-opc-agent-技能培训双创营-正式招募",
+          title: '🎯「普蓝」首期 OPC+Agent 技能培训双创营 正式招募！',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "projects-project-1",
