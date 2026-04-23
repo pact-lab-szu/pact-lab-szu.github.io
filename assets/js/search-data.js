@@ -411,12 +411,10 @@ ninja.data = [{
           section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-普蓝-首期-opc-agent-技能培训双创营-正式招募",
-          title: '🎯「普蓝」首期 OPC+Agent 技能培训双创营 正式招募！',
+          section: "News",},{id: "news-普蓝-首期-opc-agent-技能培训双创营-正式招募-深圳大学电子与信息工程学院主办-聚焦-opc-ai-agent-前沿技术-报名截止-2026年5月10日-立即报名",
+          title: '🎯 「普蓝」首期 OPC+Agent 技能培训双创营 正式招募！深圳大学电子与信息工程学院主办，聚焦 OPC + AI Agent 前沿技术，报名截止 2026年5月10日。👉 立即报名',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_5/";
-            },},{id: "news-a-simple-inline-announcement",
+          section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "projects-project-1",
