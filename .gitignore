@@ -13,3 +13,18 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Local working/source files that should not be committed
+Opc agent.pdf
+Reg-GG.pdf
+Reg-Web-2026/
+signup.html
+第一期普蓝双创营名单.xlsx
+
+# camp-assistant generated export leftovers
+camp-assistant/**/*.txt
+camp-assistant/file.svg
+camp-assistant/globe.svg
+camp-assistant/next.svg
+camp-assistant/vercel.svg
+camp-assistant/window.svg
