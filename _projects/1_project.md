@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Logic · 薛泽扬"
-description: "大三 | 电子与信息工程学院 · 通信工程"
-img: assets/img/11.jpg
+title: "张韵祺"
+description: "2023级 | 播音与主持艺术"
+img: assets/img/1.jpg
 importance: 1
 category: work
 related_publications: false
@@ -10,13 +10,12 @@ related_publications: false
 
 ## 学员简介
 
-| 姓名 | 薛泽扬 |
+| 信息 | 内容 |
 |------|------|
-| 昵称 | Logic |
-| 学院 | 电子与信息工程学院 |
-| 专业 | 通信工程 |
-| 年级 | 大三 |
+| 姓名 | 张韵祺 |
+| 专业 | 播音与主持艺术 |
+| 年级 | 2023级 |
 
 ## 项目方向
 
-地理位置猜测游戏 GeoGuesser，通过AI赋能将地理探索与趣味竞技结合
+结合内容表达、活动传播与 AI Agent 工具，探索面向双创营宣传和展示的智能化应用。

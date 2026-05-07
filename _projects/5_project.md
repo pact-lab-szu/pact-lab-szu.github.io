@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "拉吉莫拉拉 · 吴焯盈"
-description: "研究生 | 管理学院 · 工商管理学"
-img: assets/img/5.jpg
+title: "杜浩邦"
+description: "24级 | 建筑学"
+img: assets/img/12.jpg
 importance: 5
 category: work
 related_publications: false
@@ -10,13 +10,12 @@ related_publications: false
 
 ## 学员简介
 
-| 姓名 | 吴焯盈 |
+| 信息 | 内容 |
 |------|------|
-| 昵称 | 拉吉莫拉拉 |
-| 学院 | 管理学院 |
-| 专业 | 工商管理学 |
-| 年级 | 研究生 |
+| 姓名 | 杜浩邦 |
+| 专业 | 建筑学 |
+| 年级 | 24级 |
 
 ## 项目方向
 
-校招AI助手，聚合招聘信息并提供岗位筛选与面试攻略的智能求职平台
+私人健康助理，利用本地模型与Agent全流程搭建健康管理与建议智能体。

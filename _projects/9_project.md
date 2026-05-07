@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Oracle_Du · 杜浩邦"
-description: "大二 | 建筑与城市规划学院 · 建筑学"
-img: assets/img/12.jpg
+title: "赵毅俊"
+description: "大一 | 电子与信息工程学院 · 通信工程"
+img: assets/img/2.jpg
 importance: 9
 category: work
 related_publications: false
@@ -10,13 +10,13 @@ related_publications: false
 
 ## 学员简介
 
-| 姓名 | 杜浩邦 |
+| 信息 | 内容 |
 |------|------|
-| 昵称 | Oracle_Du |
-| 学院 | 建筑与城市规划学院 |
-| 专业 | 建筑学 |
-| 年级 | 大二 |
+| 姓名 | 赵毅俊 |
+| 学院 | 电子与信息工程学院 |
+| 专业 | 通信工程 |
+| 年级 | 大一 |
 
 ## 项目方向
 
-私人健康助理，利用本地模型与Agent全流程搭建健康管理与建议智能体
+轻量级AI模型部署与嵌入式AI项目，结合通信专业知识参与智能体开源项目共创。

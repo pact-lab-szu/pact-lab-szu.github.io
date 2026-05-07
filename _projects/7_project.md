@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "momo · 杨文韬"
-description: "大一 | 计算机与软件学院 · 计算机科学与技术"
-img: assets/img/4.jpg
+title: "宋凯"
+description: "23级 | 电子与信息工程学院 · 电子信息工程"
+img: assets/img/1.jpg
 importance: 7
 category: work
 related_publications: false
@@ -10,13 +10,13 @@ related_publications: false
 
 ## 学员简介
 
-| 姓名 | 杨文韬 |
+| 信息 | 内容 |
 |------|------|
-| 昵称 | momo |
-| 学院 | 计算机与软件学院 |
-| 专业 | 计算机科学与技术 |
-| 年级 | 大一 |
+| 姓名 | 宋凯 |
+| 学院 | 电子与信息工程学院 |
+| 专业 | 电子信息工程 |
+| 年级 | 23级 |
 
 ## 项目方向
 
-旅游AI助手，整合旅游文化与攻略，提供个性化旅游方案，可部署于穿戴设备
+结合语音算法与Agent搭建个人智能体，深化AI开发应用方向探索。
